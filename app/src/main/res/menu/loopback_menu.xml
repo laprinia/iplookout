@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opt_addr"
+
+        android:title="@string/past_ip_addresses"/>
+
+    <item
+        android:id="@+id/opt_speeds"
+
+        android:title="@string/mobile_and_wifi_speeds"/>
+    <item
+        android:id="@+id/opt_compare"
+
+        android:title="@string/compare_speeds"/>
+
+    <item
+        android:id="@+id/opt_roomdb"
+
+        android:title="@string/domain_database"/>
+    <item
+        android:id="@+id/opt_firebase"
+
+        android:title="@string/see_accessed_ip_s_piechart"/>
+    <item
+        android:id="@+id/opt_rawfirebase"
+
+        android:title="@string/see_raw_firebase_db"/>
+
+
+
+
+
+</menu>

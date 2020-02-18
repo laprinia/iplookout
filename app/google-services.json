@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1055268306787",
+    "firebase_url": "https://iplookout.firebaseio.com",
+    "project_id": "iplookout",
+    "storage_bucket": "iplookout.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055268306787:android:31a1f56fc1e65dc0ea5d56",
+        "android_client_info": {
+          "package_name": "com.example.iplookout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055268306787-g46klb9tlgtifs1map26pjngiqdb8tt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQobFfAV0RW89vIJlXKf4-rO_WGJimfmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055268306787-g46klb9tlgtifs1map26pjngiqdb8tt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

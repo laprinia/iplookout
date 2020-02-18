@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_result"/>
+    <item
+        android:id="@+id/nav_ping"
+        android:icon="@drawable/ic_ping"
+        android:title="@string/ping"/>
+    <item
+        android:id="@+id/nav_whois"
+        android:icon="@drawable/ic_whois"
+        android:title="@string/who_is"/>
+    <item
+        android:id="@+id/nav_personal"
+        android:icon="@drawable/ic_about"
+        android:title="@string/about_you"/>
+
+</menu>

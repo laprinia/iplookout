@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loopback_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loopback"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_abt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/we_found_you_on" />
+
+    <TextView
+        android:id="@+id/loopaddress_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textColor="#330019"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:typeface="monospace"
+
+         />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1"
+        android:textAlignment="textEnd"
+        android:text="@string/more_tv"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="7px"
+        android:layout_weight="1"
+        android:scaleType="fitEnd"
+        android:src="@drawable/information" />
+
+
+
+        <ListView
+            android:id="@+id/details_lv"
+            android:layout_width="match_parent"
+            android:layout_height="7px"
+            android:layout_weight="8"
+            />
+
+<!--    </androidx.core.widget.NestedScrollView>-->
+</LinearLayout>

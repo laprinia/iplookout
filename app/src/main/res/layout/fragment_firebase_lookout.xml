@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirebaseLookout">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/holiday"
+        android:layout_weight="0.01"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_weight="6"
+        android:text="@string/powered_by_google_firebase"
+        android:textAlignment="center"
+        android:textColor="#E0440E"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:typeface="monospace" />
+
+    <lecho.lib.hellocharts.view.PieChartView
+        android:id="@+id/chart"
+        android:layout_width="wrap_content"
+        android:layout_height="388dp"
+        android:layout_weight="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp" />
+
+
+</LinearLayout>
